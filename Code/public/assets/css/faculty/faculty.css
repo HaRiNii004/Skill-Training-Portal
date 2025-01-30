@@ -1,0 +1,114 @@
+body {
+    background-color: #F4F4F4;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background-color: #E5E5E5;
+    width: 250px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+.task-attendance-form {
+    background-color: #7287c4;
+    padding: 20px;
+    margin: 10px;
+    width: 99%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    height:70px;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #afc4f4;
+}
+
+.enter-btn {
+    background-color: #afc4f4;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.attendance-table {
+    width: 99%; /* Adjust this value according to your design */
+    background-color: #afc4f4;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 20px;
+    margin: 10px;
+    right: 10px;
+    left: 10px; /* Add some margin for spacing */
+}
+
+.attendance-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th, .attendance-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #afc4f4;
+}
+
+.attendance-table th {
+    background-color: #7287c4;
+    font-weight: bold;
+}
+
+.attendance-table td {
+    background-color: #afc4f4;
+}
+
+.attendance-table input[type="checkbox"] {
+    cursor: pointer;
+    transform: scale(1.5);
+}

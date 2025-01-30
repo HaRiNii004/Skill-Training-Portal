@@ -1,0 +1,190 @@
+body {
+    background-color: #F4F4F4;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background-color: #afc4f4;
+    width: 250px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.form-group select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #afc4f4;
+    width: 100%;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+.task-attendance-form {
+    background-color: #7287c4;
+    padding: 20px;
+    margin: 10px;
+    width: 99%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    height:70px;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #afc4f4;
+}
+
+.enter-btn {
+    background-color: #afc4f4;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.attendance-table {
+    width: 99%; /* Adjust this value according to your design */
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 20px;
+    height:400px;
+    margin: 10px;
+    right: 10px;
+    left: 10px; /* Add some margin for spacing */
+}
+
+.attendance-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th, .attendance-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.attendance-table th {
+    background-color: #7287c4;
+    font-weight: bold;
+}
+
+.attendance-table td {
+    background-color: #afc4f4;
+}
+
+.attendance-table input[type="checkbox"] {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+.edit-course {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    width: 250px;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 1000%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+select:focus, input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 10%;
+    height: 45px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:focus {
+    outline: none;
+    border-color: #1e7e34;
+}
+.table-wrapper {
+    max-height: 400px; /* Set the height you want for the scrollable area */
+    overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+
